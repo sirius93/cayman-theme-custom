@@ -42,6 +42,7 @@ gradient_color_right: "#159957"
 header_color: "#fff"
 darkmode: false
 hide_first_title: false # Useful if README.md is used on both github and pages
+logo_url: ./logo.png # Either absolute or relative url
 
 # These colors default to gradient_color
 android_theme_color: "#000"
