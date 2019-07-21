@@ -51,11 +51,17 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+        {% unless site.buttons.github_hide %}
+          <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+        {% endunless %}
       {% endif %}
       {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+        {% unless site.buttons.zip_hide %}
+          <a href="{{ site.buttons.zip_url | default: site.github.zip_url }}" class="btn">{{ site.buttons.zip_title | default: "Download .zip" }}</a>
+        {% endunless %}
+        {% unless site.buttons.tar_hide %}
+          <a href="{{ site.buttons.tar_url | default: site.github.tar_url }}" class="btn">{{ site.buttons.tar_title | default: "Download .tar.gz" }}</a>
+        {% endunless %}
       {% endif %}
     </header>
 
