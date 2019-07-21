@@ -38,6 +38,14 @@ Additionally, you may choose to set the following optional variables:
 ```yml
 show_downloads: ["true" or "false" to indicate whether to provide a download URL]
 google_analytics: [Your Google Analytics tracking ID]
+gradient_color_left: "#155799"
+gradient_color_right: "#159957"
+header_color: "#fff"
+
+# These colors default to gradient_color
+android_theme_color: "#000"
+link_color: "#1e6bb8"
+section_title_color: "#155799"
 ```
 
 ### Stylesheet

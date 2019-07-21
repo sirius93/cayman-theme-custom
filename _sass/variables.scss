@@ -1,16 +1,18 @@
+// File isn't actually used. Copied to /assets/css/style.scss so colors can be set in settings
+
 // Breakpoints
 $large-breakpoint: 64em !default;
 $medium-breakpoint: 42em !default;
 
 // Headers
-$header-heading-color: #fff !default;
-$header-bg-color: #159957 !default;
-$header-bg-color-secondary: #155799 !default;
+$header-heading-color: {{ site.title_color | default: "#fff" }} !default;
+$header-bg-color: {{ site.gradient_color_right | default: "#159957" }} !default;
+$header-bg-color-secondary: {{ site.gradient_color_left | default: "#155799" }} !default;
 
 // Text
-$section-headings-color: #159957 !default;
+$section-headings-color: {{ site.gradient_color_right | default: "#159957" }} !default;
 $body-text-color: #606c71 !default;
-$body-link-color: #1e6bb8 !default;
+$body-link-color: {{ site.gradient_color_right | default: "#1e6bb8" }} !default;
 $blockquote-text-color: #819198 !default;
 
 // Code
