@@ -5,3 +5,4 @@ remote_theme: tuur29/pages-themes-cayman
 header_color: "#000"
 gradient_color_left: "#e53935"
 gradient_color_right: "#f57c00"
+darkmode: true
