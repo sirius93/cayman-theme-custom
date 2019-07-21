@@ -43,6 +43,7 @@ header_color: "#fff"
 darkmode: false
 hide_first_title: false # Useful if README.md is used on both github and pages
 logo_url: ./logo.png # Either absolute or relative url
+syntax_theme: ./syntax.css # Leave empty for default, otherwise link to a pygments stylesheet
 
 # These colors default to gradient_color
 android_theme_color: "#000"

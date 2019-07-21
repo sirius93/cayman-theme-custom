@@ -40,6 +40,9 @@
         }
       </style>
       {% endif %}
+      {% if site.syntax_theme %}
+        <link rel="stylesheet" href="{{ site.syntax_theme }}">
+      {% endif %}
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
