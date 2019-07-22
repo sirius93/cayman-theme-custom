@@ -1,4 +1,4 @@
-# The Cayman theme
+# Custom Cayman theme
 
 *Cayman is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://tuur29.github.io/pages-themes-cayman), or even [use it today](#usage).*
 
@@ -6,7 +6,7 @@
 
 ## Usage
 
-To use the Cayman theme:
+To use the Custom Cayman theme:
 
 1. Add the following to your site's `_config.yml`:
 
@@ -24,7 +24,9 @@ To use the Cayman theme:
 
 ### Configuration variables
 
-Cayman will respect the following variables, if set in your site's `_config.yml`:
+> This theme is fully compatible with the stock Cayman theme.
+
+This theme will respect the following variables, if set in your site's `_config.yml`:
 
 ```yml
 title: [The title of your site]
@@ -37,18 +39,26 @@ Additionally, you may choose to set the following optional variables:
 show_downloads: ["true" or "false" to indicate whether to provide a download URL]
 google_analytics: [Your Google Analytics tracking ID]
 google_analytics_anonymize: false
-gradient_color_left: "#155799"
-gradient_color_right: "#159957"
-header_color: "#fff"
 darkmode: false
 hide_first_title: false # Useful if README.md is used on both github and pages
 logo_url: ./logo.png # Either absolute or relative url
 syntax_theme: ./syntax.css # Leave empty for default, otherwise link to a pygments stylesheet
+colors:
+    gradient_left: "#155799"
+    gradient_right: "#159957"
+    header: "#fff"
+    android_theme: "#000" # this default to gradient_color
+    link: "#1e6bb8" # this default to gradient_color
+    section_title: "#155799" # this default to gradient_color
+buttons:
+      zip_url: http://example.com/
+      zip_title: Title
+      zip_hide: true
+      tar_url: http://example.com/
+      tar_title: Title
+      tar_hide: true
+      github_hide: true # hides "View on Github"
 
-# These colors default to gradient_color
-android_theme_color: "#000"
-link_color: "#1e6bb8"
-section_title_color: "#155799"
 ```
 
 ### Stylesheet
@@ -69,37 +79,6 @@ If you'd like to change the theme's HTML layout:
 2. Create a file called `/_layouts/default.html` in your site
 3. Paste the default layout content copied in the first step
 4. Customize the layout as you'd like
-
-### Overriding Header buttons and GitHub-generated URLs
-
-Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default buttons:
-
-1. Look at [the template source](https://github.com/tuur29/pages-themes-cayman/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
-2. Specify the title and URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url` and you only want to hide the other button, you'd add the following:
-    ```yml
-    buttons:
-      zip_url: http://example.com/download.exe
-      zip_title: Download Executable
-      tar_hide: true # hides second download button
-      github_hide: true # hides "View on Github"
-    ```
-3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
-
-*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
-
-For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
-
-## Roadmap
-
-See the [open issues](https://github.com/tuur29/pages-themes-cayman/issues) for a list of proposed features (and known issues).
-
-## Project philosophy
-
-The Cayman theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
-
-## Contributing
-
-Interested in contributing to Cayman? We'd love your help. Cayman is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
 
 ### Previewing the theme locally
 
