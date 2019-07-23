@@ -2,7 +2,7 @@
 
 *Cayman is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://tuur29.github.io/pages-themes-cayman), or even [use it today](#usage).*
 
-![Thumbnail of Cayman](thumbnail.png)
+<img alt="Preview" title="Preview" src="https://tuur29.github.io/pages-themes-cayman/preview_green.png" width="280"> <img alt="Preview" title="Preview" src="https://tuur29.github.io/pages-themes-cayman/preview_purple.png" width="280"> <img alt="Preview" title="Preview" src="https://tuur29.github.io/pages-themes-cayman/preview_dark.png" width="280">
 
 ## Usage
 
