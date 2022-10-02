@@ -1,6 +1,6 @@
 # Custom Cayman theme
 
-*Cayman is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://tuur29.github.io/pages-themes-cayman), or even [use it today](#usage).*
+*Cayman is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](https://nandankumar.info/cayman-theme-custom), or even [use it today](#usage).*
 
 <img alt="Preview" title="Preview" src="https://tuur29.github.io/pages-themes-cayman/preview_green.png" width="280"> <img alt="Preview" title="Preview" src="https://tuur29.github.io/pages-themes-cayman/preview_purple.png" width="280"> <img alt="Preview" title="Preview" src="https://tuur29.github.io/pages-themes-cayman/preview_dark.png" width="280">
 
@@ -11,7 +11,7 @@ To use the Custom Cayman theme:
 1. Add the following to your site's `_config.yml`:
 
     ```yml
-    remote_theme: tuur29/pages-themes-cayman
+    remote_theme: sirius93/cayman-theme-custom
     ```
 
 2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
@@ -75,7 +75,7 @@ If you'd like to add your own custom styles:
 
 If you'd like to change the theme's HTML layout:
 
-1. [Copy the original template](https://github.com/tuur29/pages-themes-cayman/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
+1. [Copy the original template](https://github.com/sirius93/cayman-theme-custom/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
 2. Create a file called `/_layouts/default.html` in your site
 3. Paste the default layout content copied in the first step
 4. Customize the layout as you'd like
@@ -84,7 +84,7 @@ If you'd like to change the theme's HTML layout:
 
 If you'd like to preview the theme locally (for example, in the process of proposing a change):
 
-1. Clone down the theme's repository (`git clone https://github.com/tuur29/pages-themes-cayman`)
+1. Clone down the theme's repository (`git clone https://github.com/sirius93/cayman-theme-custom`)
 2. `cd` into the theme's directory
 3. Run `script/bootstrap` to install the necessary dependencies
 4. Run `bundle exec jekyll serve` to start the preview server
