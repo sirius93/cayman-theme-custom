@@ -3,14 +3,20 @@ description: Cayman is a clean, responsive theme for GitHub Pages.
 show_downloads: true
 remote_theme: sirius93/cayman-theme-custom
 color:
-  header: "#000"
-  gradient_left: "#e53935"
-  gradient_right: "#f57c00"
+  gradient_color: "#FF9000"
+  gradient_left: "#F7910F"
+  gradient_right: "#FF9000"
+  section_title: "#155799"
 logo_url: https://github.githubassets.com/images/icons/emoji/octocat.png
 syntax_theme: https://stylishthemes.github.io/Syntax-Themes/pygments/css-github/pygments-monokai.css
 buttons:
-  zip_url: https://github.com/tuur29/pages-themes-cayman
+  zip_url: https://github.com/sirius93/cayman-theme-custom
   zip_title: View Documentation
+  zip_url: https://nandankumar.info
+  zip_title: Home
   zip_hide: false
   tar_hide: true
   github_hide: true
+google_analytics: G-4ZLTZWK8F2
+google_analytics_anonymize: false
+favicon: https://nandankumar.info/images/favicon.ico
