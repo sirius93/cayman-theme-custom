@@ -1,7 +1,7 @@
 title: Custom Cayman theme
 description: Cayman is a clean, responsive theme for GitHub Pages.
 show_downloads: true
-remote_theme: tuur29/pages-themes-cayman
+remote_theme: sirius93/cayman-theme-custom
 color:
   header: "#000"
   gradient_left: "#e53935"
