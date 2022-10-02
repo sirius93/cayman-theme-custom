@@ -12,8 +12,6 @@ syntax_theme: https://stylishthemes.github.io/Syntax-Themes/pygments/css-github/
 buttons:
   zip_url: https://github.com/sirius93/cayman-theme-custom
   zip_title: View Documentation
-  zip_url: https://nandankumar.info
-  zip_title: Home
   zip_hide: false
   tar_hide: true
   github_hide: true
