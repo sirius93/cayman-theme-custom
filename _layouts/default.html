@@ -14,7 +14,9 @@
     <meta charset="UTF-8">
 
 {% seo %}
-    <link rel="icon" type="image/x-icon" href="{{ site.favicon }}">
+    {% if site.favicon %}
+       <link rel="icon" type="image/x-icon" href="{{ site.favicon }}">
+    {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="{{ site.color.android_theme | default: site.color.gradient_left }}">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
