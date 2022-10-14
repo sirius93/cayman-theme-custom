@@ -44,10 +44,11 @@
           <a href="{{ site.buttons.tar_url | default: site.github.tar_url }}" class="btn">{{ site.buttons.tar_title | default: "Download .tar.gz" }}</a>
         {% endunless %}
       {% endif %}
+
+      <div id="navigation"></div>
     </header>
 
     <main id="content" class="main-content" role="main">
-      <div id="navigation"></div>
       {{ content }}
 
       <footer class="site-footer">
