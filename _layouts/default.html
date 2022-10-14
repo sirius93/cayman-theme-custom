@@ -47,6 +47,7 @@
     </header>
 
     <main id="content" class="main-content" role="main">
+      <div id="navigation"></div>
       {{ content }}
 
       <footer class="site-footer">
@@ -64,6 +65,23 @@
         h.addEventListener('click', e => {
           window.location.hash = e.target.getAttribute('id');
         });
+      })
+
+      var path = document.location.pathname.split("/");
+      path.pop();
+      var pathy = "";
+      var navElement = document.getElementById("navigation");
+      path.forEach(function(ele,index){
+          var el = document.createElement("a"); 
+          pathy = pathy+ele+"/"
+          el.setAttribute("href",pathy)
+          el.innerHTML = ele || "Home"
+          navElement.appendChild(el);
+          if(path.length != index+1){
+             var newSpan = document.createElement("span");
+              newSpan.innerHTML = " > "
+              navElement.appendChild(newSpan); 
+          }
       })
     </script>
   </body>
