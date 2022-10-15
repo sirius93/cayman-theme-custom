@@ -49,9 +49,11 @@ $hr-border-color: #eff0f1 !default;
 {% if site.hide_first_title %}
     .main-content h1:first-child { display: none; }
 {% endif %}
+
 div#navigation {
-    border-bottom: 1px solid;
-    padding-bottom: 15px;
-    border-color: #1a72e7;
-    color: #1a72e7;
+    position: relative;
+    top: 32px;
+    a{
+        color: {{ site.color.header | default: "#fff" }} !default;
+    }
 }
