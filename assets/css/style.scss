@@ -53,7 +53,9 @@ $hr-border-color: #eff0f1 !default;
 div#navigation {
     position: relative;
     top: 32px;
+    
     a{
         color: #fff;
+        text-decoration:underline;
     }
 }
