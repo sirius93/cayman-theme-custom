@@ -54,6 +54,6 @@ div#navigation {
     position: relative;
     top: 32px;
     a{
-        color: {{ site.color.header | default: "#fff" }} !default;
+        color: $body-link-color;
     }
 }
