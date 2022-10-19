@@ -35,8 +35,8 @@ $hr-border-color: #eff0f1 !default;
 .project-name::before {
     content: " ";
     display: block;
-    width: 2.9em;
-    height: 0.9em;
+    width: 6em;
+    height: 1.5em;
     padding-right: 0.5em;
     vertical-align: middle;
     background: url("{{site.logo_url}}");
@@ -53,10 +53,10 @@ $hr-border-color: #eff0f1 !default;
 
 div#navigation {
     position: relative;
-    top: 32px;
+    top: 0px;
     
     a{
-        color: #fff;
+        color: $body-link-color;
         text-decoration:underline;
     }
 }
