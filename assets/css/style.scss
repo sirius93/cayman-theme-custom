@@ -34,8 +34,8 @@ $hr-border-color: #eff0f1 !default;
 {% if site.logo_url %}
 .project-name::before {
     content: " ";
-    display: inline-block;
-    width: 0.9em;
+    display: block;
+    width: 2.9em;
     height: 0.9em;
     padding-right: 0.5em;
     vertical-align: middle;
@@ -43,6 +43,7 @@ $hr-border-color: #eff0f1 !default;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
+    margin: 0 auto;
 }
 {% endif %}
 
