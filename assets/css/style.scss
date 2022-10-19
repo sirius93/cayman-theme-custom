@@ -52,11 +52,15 @@ $hr-border-color: #eff0f1 !default;
 {% endif %}
 
 div#navigation {
-    position: relative;
-    top: 0px;
-    
+    border-bottom: 1px solid #e0e0e0;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    text-align: center;
+    background-color: #e0e0e0;
+    span{
+        color: $section-headings-color;
+    }
     a{
         color: $section-headings-color;
-        text-decoration:underline;
     }
 }

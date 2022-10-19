@@ -46,11 +46,11 @@
       {% endif %}
       
     </header>
-
+    {% if site.show_navigation %}
+      <div id="navigation"></div>
+    {% endif %}
     <main id="content" class="main-content" role="main">
-      {% if site.show_navigation %}
-        <div id="navigation"></div>
-      {% endif %}
+      
       {{ content }}
 
       <footer class="site-footer">
@@ -84,7 +84,7 @@
           navElement.appendChild(el);
           if(path.length != index+1){
              var newSpan = document.createElement("span");
-              newSpan.innerHTML = " > "
+              newSpan.innerHTML = " → "
               navElement.appendChild(newSpan); 
           }
       })
