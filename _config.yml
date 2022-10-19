@@ -8,7 +8,7 @@ color:
   gradient_left: "#F7910F"
   gradient_right: "#FF9000"
   section_title: "#155799"
-logo_url: https://github.githubassets.com/images/icons/emoji/octocat.png
+logo_url: https://nandankumar.info/images/logo.webp
 syntax_theme: https://stylishthemes.github.io/Syntax-Themes/pygments/css-github/pygments-monokai.css
 buttons:
   zip_url: https://github.com/sirius93/cayman-theme-custom
