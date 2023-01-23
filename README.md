@@ -1,6 +1,6 @@
 # Custom Cayman theme
 
-*Cayman is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](https://nandankumar.info/cayman-theme-custom), or even [use it today](#usage).*
+*Cayman is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](https://nandan.dev/cayman-theme-custom), or even [use it today](#usage).*
 
 <img alt="Preview" title="Preview" src="https://tuur29.github.io/pages-themes-cayman/preview_green.png" width="280"> <img alt="Preview" title="Preview" src="https://tuur29.github.io/pages-themes-cayman/preview_purple.png" width="280"> <img alt="Preview" title="Preview" src="https://tuur29.github.io/pages-themes-cayman/preview_dark.png" width="280">
 
