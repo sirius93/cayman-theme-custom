@@ -8,7 +8,7 @@ color:
   gradient_left: "#F7910F"
   gradient_right: "#FF9000"
   section_title: "#155799"
-logo_url: https://nandankumar.info/images/logo.webp
+logo_url: https://nandan.dev/images/logo.webp
 syntax_theme: https://stylishthemes.github.io/Syntax-Themes/pygments/css-github/pygments-monokai.css
 buttons:
   zip_url: https://github.com/sirius93/cayman-theme-custom
@@ -18,4 +18,4 @@ buttons:
   github_hide: true
 google_analytics: G-4ZLTZWK8F2
 google_analytics_anonymize: false
-favicon: https://nandankumar.info/images/favicon.ico
+favicon: https://nandan.dev/images/favicon.ico
